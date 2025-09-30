@@ -1,0 +1,126 @@
+body{
+    font-family: Helvetica, sans-serif;
+    background-color:#e1e1e1;
+}
+
+header{
+    background-color: rgb(83, 1, 115);
+    color:white;
+    font-weight: bold;
+    font-size: 64px;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    margin-left: -10px;
+    margin-top: -10px;
+}
+
+.essentials{
+    height: 260px;
+}
+
+.float,.faq{
+    text-align:center;
+    align-content: center;
+    float: left;
+    padding: 50px;
+    width: 120px;
+    margin:20px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.faq{
+    width: 830px;
+    text-align: left;
+    margin-top: -380px;
+    float: both;
+}
+
+
+.counsel{
+    clear: left;
+}
+
+.fac{
+    float: right;
+    margin-right: 33px;
+}
+
+button{
+    padding: 10px;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    font-size: medium;
+    background-color: white;
+    border-radius: 5px;
+    color: rgb(83, 1, 115);
+    border-color: rgb(83, 1, 115);
+}
+
+button:hover{
+   
+    color: white;
+    background-color: rgb(83, 1, 115);
+    border-radius: 7px;
+}
+
+.ques{
+    color: black;
+    font-weight: bolder;
+    font-size: large;
+}
+
+h2{
+    font-size: x-large;
+    color: rgb(83, 1, 115);
+}
+
+.bold{
+    font-weight: bold;
+}
+
+table{
+    text-align: center;
+    margin: auto;
+    border-collapse: collapse;
+    border: 1px solid black;
+    
+}
+
+tr:nth-child(odd){
+    background-color: #C3B1E1;
+
+}
+
+tr:nth-child(even){
+    background-color: #D8CCEB50;
+
+}
+
+td{
+    padding:15px;
+    width: 250px;
+}
+
+.nbut{
+    padding: 25px;
+    font-size: larger;
+    width: 200px;
+    margin-bottom: 30px;
+}
+
+.notes{
+    width: 220px;
+    clear: both;
+    margin-left: 40%;
+}
+
+#mode{
+    position: fixed;
+    bottom: 20px;
+    right:20px;
+    border-radius: 50px;
+}
