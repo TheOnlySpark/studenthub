@@ -12,3 +12,8 @@ function switchStyle()
    }
 }
 
+function warning()
+{
+   confirm("website optimized for desktop usage");
+}
+
