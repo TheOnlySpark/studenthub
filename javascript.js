@@ -14,6 +14,7 @@ function switchStyle()
 
 function warning()
 {
-   confirm("website optimized for desktop usage");
+   alert("website optimized for desktop usage");
 }
+
 
